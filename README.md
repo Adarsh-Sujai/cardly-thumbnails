@@ -1,4 +1,5 @@
 # Cardly
+🔗 **[Live Demo →](https://cardly-thumbnails.vercel.app/)**
 
 A browser-based playground for designing Open Graph images, GitHub repo
 thumbnails, YouTube covers, LinkedIn banners and other social cards. Same
