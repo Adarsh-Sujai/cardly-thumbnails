@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background: #0b0d10;
+  color: #e7eaef;
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Checkerboard for transparent preview backgrounds */
+.checker {
+  background-image:
+    linear-gradient(45deg, #1a1f26 25%, transparent 25%),
+    linear-gradient(-45deg, #1a1f26 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #1a1f26 75%),
+    linear-gradient(-45deg, transparent 75%, #1a1f26 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0;
+  background-color: #11151b;
+}
+
+/* Hide Monaco's overview ruler clutter slightly */
+.monaco-editor .overflow-guard {
+  border-radius: 0;
+}
