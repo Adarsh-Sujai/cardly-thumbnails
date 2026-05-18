@@ -1,4 +1,4 @@
-# Cardly
+## Cardly
 🔗 **[Live Demo →](https://cardly-thumbnails.vercel.app/)**
 
 A browser-based playground for designing Open Graph images, GitHub repo
