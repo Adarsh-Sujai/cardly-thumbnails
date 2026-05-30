@@ -5,8 +5,7 @@ A browser-based playground for designing Open Graph images, GitHub repo
 thumbnails, YouTube covers, LinkedIn banners and other social cards. Same
 engine as Vercel's [og-playground](https://og-playground.vercel.app/)
 ([Satori](https://github.com/vercel/satori)), but runs 100% in the browser,
-with no server and no API calls, so it deploys as a static site to GitHub
-Pages.
+with no server and no API calls, so it deploys as a static site to vercel.
 
 ## Features
 
